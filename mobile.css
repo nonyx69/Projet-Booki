@@ -1,0 +1,244 @@
+@media screen  and (min-width:320px) and (max-width:768px) {
+    /*********************HEADER*****************************/
+    #entête {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    #header-top-left img {
+        width: 110px;
+        height: 45px;
+    }
+
+    header ul {
+        gap: 0px;
+        height: auto;
+        margin: 0px 0px 30px 0px;
+    }
+
+    header li {
+        font-size: 30px;
+        border-bottom: 3px solid #d9d9d9;
+        border-top: none;
+    }
+
+    .nav-header {
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 23px;
+    }
+
+    .nav-header ul {
+        padding-left: 0;
+    }
+
+    header ul li:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .filtre-info {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+
+    #barre-de-recherche {
+        font-size: 20px;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    input::placeholder {
+        font-weight: bold;
+        color: black;
+        font-size: medium;
+    }
+
+
+
+    #centre-recherche {
+        padding-left: 15px;
+        width: 100%;
+        text-align: left;
+    }
+
+    #search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #F2F2F2;
+        height: 38px;
+        width: 40px;
+        cursor: pointer;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .buttom-submit {
+        display: none;
+    }
+
+    .buttom-submit2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #F2F2F2;
+        height: 38px;
+        width: 40px;
+        cursor: pointer;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 0 10px 10px 0;
+    }
+
+    #filtre a {
+
+        border: none;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    #filtre {
+        flex-wrap: wrap;
+        padding: 20px 0 0 15px;
+        gap: 10px;
+        justify-content: center
+    }
+
+    #filtre p {
+        font-weight: bold;
+    }
+
+    #filtre2 {
+        justify-content: flex-start;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    #filtre-economie {
+        height: 37px;
+        width: 46.5%;
+        border: 3px solid #f2f2f2;
+        font-size: 15px;
+    }
+
+    #filtre-familial {
+        height: 37px;
+        width: 46.5%;
+        border: 3px solid #f2f2f2;
+        font-size: 15px;
+    }
+
+    #filtre-romantique {
+        height: 37px;
+        width: 46.5%;
+        border: 3px solid #f2f2f2;
+        font-size: 15px;
+    }
+
+    #filtre-pepite {
+        height: 37px;
+        width: 46.5%;
+        border: 3px solid #f2f2f2;
+        font-size: 15px;
+    }
+    #header-fin {
+        display: flex;
+    }   
+      /* PREMIERE PARTIE HEBERGEMENT/POPULAIRE */
+    #hebergements{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .cartes-container h2{
+        padding-left: 5%;
+    }
+
+    .title{
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+
+    #container_populaire{
+        width: 100%;
+    }
+
+
+    #Populaire{
+        width: 100%;
+        align-items: center;
+        padding: 0 ;
+    }
+    .first_part_hebergement{
+        flex-direction: column;
+    }
+
+    #afficher-plus{
+        padding-left: 5%;
+    }
+    
+    .hotel{
+        width: 90%;
+    }
+
+    .hotel img{
+        height: 165px;
+    }
+
+    .chambre{
+        height: 120px;
+        width: 90%;
+    }
+
+    /* ACTIVITE MARSEILLE */
+
+    .activites_images{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 90%;
+    }
+    
+    .activites img {
+        width: 100%;
+        height: 152px;
+    }
+
+    #activite_conteneur{
+        overflow-x: hidden;
+        padding: 0px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .titre  {
+    padding-left: 20%;
+    }
+    .cartes-container{
+        width: 100%;
+        padding: 0;
+        
+    }
+
+    .activites{
+        width: 95%;
+    }
+/******************* FOOTER ***********************/
+    footer {
+        background-color: #F2F2F2;
+        color: rgb(0, 0, 0);
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 6%;
+    }
+}
+
